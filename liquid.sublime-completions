@@ -1,0 +1,52 @@
+{
+        "scope": "text.html.liquid punctuation.output.liquid, text.html.liquid punctuation.tag.liquid, text.html.liquid support.class.liquid",
+
+        "completions":
+        [   
+            { "trigger": "mixture.url", "contents": "mixture.url" },
+            { "trigger": "mixture.sitemap", "contents": "mixture.sitemap" },
+            { "trigger": "global", "contents": "global" },
+            { "trigger": "model", "contents": "model" },
+
+            { "trigger": "asset_url", "contents": "asset_url" },
+
+            { "trigger": "placeholder", "contents": "placeholder: \" \", \" \""},
+            { "trigger": "lorem_ipsum", "contents": "lorem_ipsum: \"p\""},
+
+            { "trigger": "trim", "contents": "replace: \" \", split: \" \" | join: \" \""},
+            { "trigger": "img_tag", "contents": "img_tag" },
+            { "trigger": "script_tag", "contents": "script_tag" },
+            { "trigger": "stylesheet_tag", "contents": "stylesheet_tag" },
+
+            { "trigger": "money", "contents": "money" },
+            { "trigger": "plus", "contents": "plus" },
+            { "trigger": "minus", "contents": "minus" },
+            { "trigger": "times", "contents": "times" },
+            { "trigger": "divided_by", "contents": "divided_by" },
+            { "trigger": "append", "contents": "append: " },
+            { "trigger": "camelize", "contents": "camelize" },
+            { "trigger": "capitalize", "contents": "capitalize" },
+            { "trigger": "date", "contents": "date" },
+            { "trigger": "downcase", "contents": "downcase" },
+            { "trigger": "escape", "contents": "escape" },
+            { "trigger": "first", "contents": "first" },
+            { "trigger": "slugify", "contents": "slugify" },
+
+            { "trigger": "join", "contents": "join" },
+            { "trigger": "last", "contents": "last" },
+            { "trigger": "replace_first", "contents": "replace_first: $0" },
+            { "trigger": "remove", "contents": "remove" },
+            { "trigger": "remove_first", "contents": "remove_first: $0" },
+            { "trigger": "newline_to_br", "contents": "newline_to_br" },
+            { "trigger": "pluralize", "contents": "pluralize" },
+            { "trigger": "prepend", "contents": "prepend" },
+            { "trigger": "size", "contents": "size" },
+            { "trigger": "split", "contents": "split: $0" },
+            { "trigger": "strip_html", "contents": "strip_html" },
+            { "trigger": "strip_newlines", "contents": "strip_newlines" },
+            { "trigger": "replace", "contents": "replace" },
+            { "trigger": "truncate", "contents": "truncate" },
+            { "trigger": "truncatewords", "contents": "truncatewords" },
+            { "trigger": "upcase", "contents": "upcase" }
+        ]
+}
