@@ -17,29 +17,29 @@ To show the autocomplete suggestions, your cursor must be within a tag markup or
 
 Then press `ctrl + spacebar`, or add the following to your user settings file:
 
-'''
+```
 "auto_complete_selector": "source - comment, text.html.liquid punctuation.output.liquid, text.html.liquid punctuation.tag.liquid"
-'''
+```
 
 ## Example Snippets
 
 **block**
 
-'''
+```
 block + tab >>>
 
 {% block $1 %}{% endblock %}
-'''
+```
 
 
 **IF statement**
 
-'''
+```
 if + tab >>>
 
 {% if $1 %}
   $2
 {% endif %}
-'''
+```
 
 Check the "Snippets" folder for more.
