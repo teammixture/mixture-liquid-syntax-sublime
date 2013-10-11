@@ -4,7 +4,7 @@ This is a fork of the [Siteleaf](https://github.com/siteleaf/liquid-syntax-mode)
 
 ## Installation
 
-1. Clone this repo
+1. Clone or Download this repo
 2. Put the contents of this repo directly inside the Sublime Text packages directory (Submlime Text > Preferences > Browse Packages).
 
 Or use PackageControl.
@@ -17,39 +17,29 @@ To show the autocomplete suggestions, your cursor must be within a tag markup or
 
 Then press `ctrl + spacebar`, or add the following to your user settings file:
 
-@@@
+'''
 "auto_complete_selector": "source - comment, text.html.liquid punctuation.output.liquid, text.html.liquid punctuation.tag.liquid"
-@@@
+'''
 
-## Snippets
-
-Some handy snippets:
+## Example Snippets
 
 **block**
 
-@@@
+'''
 block + tab >>>
 
 {% block $1 %}{% endblock %}
-@@@
+'''
 
 
 **IF statement**
 
-@@@
+'''
 if + tab >>>
 
 {% if $1 %}
   $2
 {% endif %}
-@@@
+'''
 
-**Tag markup**
-
-@@@
-% + tab >>>
-
-{% $1 %}
-@@@
-
-For a full list, check out the "Snippets" folder.
+Check the "Snippets" folder for more.
