@@ -10,7 +10,8 @@
 
             { "trigger": "asset_url", "contents": "asset_url" },
 
-            { "trigger": "placeholder", "contents": "placeholder: \" \", \" \""},
+            { "trigger": "navigation", "contents": "navigation: mixture.url, \"ol\", \"li\", \"selected\", \"Home\""},
+            { "trigger": "placeholder", "contents": "placeholder: \"FF6600\", \"000000\""},
             { "trigger": "lorem_ipsum", "contents": "lorem_ipsum: \"p\""},
 
             { "trigger": "trim", "contents": "replace: \" \", split: \" \" | join: \" \""},
