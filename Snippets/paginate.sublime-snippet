@@ -1,0 +1,10 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <content><![CDATA[
+{% paginate $1 by $2 %}
+
+{% endpaginate %}]]></content>
+    <tabTrigger>paginate</tabTrigger>
+    <scope>text.html.liquid</scope>
+    <description>paginate</description>
+</snippet>

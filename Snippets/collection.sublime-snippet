@@ -1,0 +1,10 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <content><![CDATA[
+{% collection "$1" %}
+
+{% endcollection %}]]></content>
+    <tabTrigger>collection</tabTrigger>
+    <scope>text.html.liquid</scope>
+    <description>collection</description>
+</snippet>
