@@ -1,0 +1,10 @@
+<!-- See http://www.sublimetext.com/docs/snippets for more information -->
+<snippet>
+    <content><![CDATA[
+{% grouped "$1" by "$2" %}
+
+{% endgrouped %}]]></content>
+    <tabTrigger>grouped</tabTrigger>
+    <scope>text.html.liquid</scope>
+    <description>grouped</description>
+</snippet>

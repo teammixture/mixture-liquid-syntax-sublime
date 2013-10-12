@@ -7,9 +7,9 @@
 		<string>liquid</string>
 	</array>
 	<key>foldingStartMarker</key>
-	<string>(?x){%\s*(if|unless|for|paginate|capture|form|case|tablerow|raw|comment|block|paginate|collection)[^(%})]+%}</string>
+	<string>(?x){%\s*(if|unless|for|paginate|capture|form|case|tablerow|raw|comment|block|paginate|collection|grouped|archive|item)[^(%})]+%}</string>
 	<key>foldingStopMarker</key>
-	<string>(?x){%\s*(endif|endunless|endfor|endpaginate|endcapture|endform|endcase|endtablerow|endraw|endcomment|endblock|endpaginate|endcollection)[^(%})]+%}</string>
+	<string>(?x){%\s*(endif|endunless|endfor|endpaginate|endcapture|endform|endcase|endtablerow|endraw|endcomment|endblock|endpaginate|endcollection|endgrouped|endarchive|enditem)[^(%})]+%}</string>
 	<key>name</key>
 	<string>HTML (Liquid)</string>
 	<key>patterns</key>
